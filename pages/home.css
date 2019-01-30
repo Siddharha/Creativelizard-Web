@@ -1,0 +1,48 @@
+
+#intro{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+#intro h1{
+    margin: 5px;
+    padding: 0px;
+    color: beige;
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: -.01562rem;
+    
+}
+#intro h3{
+    margin: 5px;
+    padding: 0px;
+    color: rgb(155, 155, 155);
+    font-size: 1.125rem;
+}
+
+#intro #section-1{
+    margin: 0 auto;
+    max-width: 375px;
+    padding-bottom: 34px;
+    float: left;
+}
+
+#intro #section-2{
+    margin-left: -16px;
+    margin-right: -16px;
+    max-width: 375px;
+    display: inline-block;
+    position: relative;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+
+}
+
+#intro #section-2 img{
+    width: 254px;
+    height: 254px;
+    margin-left: 10px;
+}

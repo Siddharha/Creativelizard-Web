@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
     <title>Creative Lizard</title>
 </head>
 
@@ -13,23 +16,15 @@
     <div id="menu">
         <img src="./src/logo.svg" alt="Logo">
         <ul class="menu">
-            <li id="menu-start">Home</li>
+            <li id="menu-start" onclick="clkHome();">Home</li>
             <li>Products</li>
             <li id="menu-end">About</li>
         </ul>
     </div>
 
     <div id="main-section">
-        <div id="intro">
-            <div id="section-1">
-                <h1>Hello!</h1>
-                <h3>Creative Lizard is an Innovative Software Company based on India. We do care about people and try
-                    to make life simple.</h3>
-            </div>
-            <div id="section-2">
-                <img src="./src/logo.svg" alt="Logo">
-            </div>
-        </div>
+
+
     </div>
     <div id="social-inner">
         <h5>Follow us on:</h5>
@@ -111,5 +106,4 @@
         </ul>
     </div>
 </body>
-
 </html>
