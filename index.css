@@ -1,0 +1,113 @@
+body{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(77, 77, 77)
+}
+#menu{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#menu .menu{
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    list-style-type: none;
+    background-color: rgb(70, 70, 70);
+    align-self: flex-end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid rgb(87, 87, 87);
+    border-left: 1px solid rgb(87, 87, 87);
+    border-right: 1px solid rgb(87, 87, 87);
+}
+
+#menu .menu #menu-start{
+    border-top-left-radius: 20px;
+}
+
+#menu .menu #menu-end{
+    border-top-right-radius: 20px;
+}
+
+#menu .menu li{
+   left: 0px;
+    float: left;
+    display: -webkit-box;
+    color: rgb(189, 189, 189);
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#menu img{
+    width: 54px;
+    height: 54px;
+ }
+
+#menu .menu li:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    
+}
+
+#menu .menu li:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 134, 0);
+    
+}
+
+#main-section #intro{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+#main-section #intro h1{
+    margin: 5px;
+    padding: 0px;
+    color: beige;
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: -.01562rem;
+    
+}
+#main-section #intro h3{
+    margin: 5px;
+    padding: 0px;
+    color: rgb(155, 155, 155);
+    font-size: 1.125rem;
+}
+
+#main-section #intro #section-1{
+    margin: 0 auto;
+    max-width: 375px;
+    padding-bottom: 34px;
+    float: left;
+}
+
+#main-section #intro #section-2{
+    margin-left: -16px;
+    margin-right: -16px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100vw;
+
+}
+
+#main-section #intro #section-2 img{
+    width: 254px;
+    height: 254px;
+    margin-left: 10px;
+}
